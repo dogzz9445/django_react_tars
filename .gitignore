@@ -1,0 +1,39 @@
+*.pyc
+/backend/db.sqlite3
+.DS_Store
+.env
+*/settings/local.py
+/staticfiles/*
+/mediafiles/*
+__pycache__/
+/.vscode/
+
+# secret
+*/secret.py
+
+# coverage result
+.coverage
+/coverage/
+htmlcov/
+
+# data
+*.dump
+*/db.sqlite3
+
+# npm
+node_modules/
+npm-debug.log
+
+# Webpack
+/frontend/bundles/*
+/frontend/webpack_bundles/*
+/webpack-stats.json
+/jquery-webpack-stats.json
+
+# General
+/{{project_name}}-venv/
+/venv/
+/env/
+/output/
+/cache/
+boilerplate.zip
